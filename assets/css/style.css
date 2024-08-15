@@ -343,6 +343,8 @@ h6 {
   display: block;
 }
 
+
+
 /*--------------------------------------------------------------
 # Hero Company Section
 --------------------------------------------------------------*/
@@ -1891,4 +1893,83 @@ border-top: 1px solid #333; /* Add a custom border */
   color: #fff;
   font-weight: 800;
 }
+
+.product-status {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(90deg in oklab, #2e3192, #db506f);
+  color: #FFF;
+  width: 80px;
+  height: 30px;
+
+}
+
+        /* Card styling */
+        .image-card {
+          position: relative;
+          overflow: hidden;
+          transition: transform 0.3s, box-shadow 0.3s;
+          border: none!important;
+          box-shadow: 0px 0 12px 0 rgba(0, 0, 0, 0.1);
+      }
+
+      .image-card:hover {
+          transform: scale(1.05);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Image container */
+      .image-container {
+          position: relative;
+          width: 100%;
+          height: 150px;
+      }
+
+      .image-container img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+
+      /* Overlay for hover effect */
+      .overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0, 0, 0, 0.5);
+          opacity: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: opacity 0.3s;
+      }
+
+      .image-card:hover .overlay {
+          opacity: 1;
+      }
+
+      /* Button in the center of the image */
+      .overlay .btn {
+          opacity: 0;
+          transition: opacity 0.3s;
+      }
+
+      .image-card:hover .overlay .btn {
+          opacity: 1;
+      }
+
+      .btn-brand-product{
+        border: 1px solid #2e3192;
+        color: #fff;
+        background-color: #2e3192;
+      }
+
+      .btn-brand-product:hover {
+        border: 1px solid #2e3192!important;
+        color: #fff!important;
+        background-color: #2e3192;
+      }
 
