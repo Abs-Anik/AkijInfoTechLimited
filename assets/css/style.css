@@ -370,6 +370,12 @@ h6 {
   background-repeat: no-repeat !important;
 }
 
+.display-background {
+  background: url("../img/display/profesioanl-display.jpg") center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
 #hero-company:before {
   content: "";
   background: rgba(33, 57, 75, 0.7);
@@ -1898,7 +1904,7 @@ border-top: 1px solid #333; /* Add a custom border */
   position: absolute;
   top: 0;
   right: 0;
-  background: linear-gradient(90deg in oklab, #2e3192, #db506f);
+  background: linear-gradient(90deg in oklab, #2e3192, #60618f);
   color: #FFF;
   width: 80px;
   height: 30px;
