@@ -364,6 +364,12 @@ h6 {
   background: url("../img/server.jpeg") center center !important;
 }
 
+.cable-background {
+  background: url("../img/cable-bg.png") center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
 .pbx-background {
   background: url("../img/pbx/pbx.jpg") center center !important;
   background-size: cover !important;
